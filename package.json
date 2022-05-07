@@ -1,0 +1,18 @@
+{
+    "name": "pcmsvsc",
+    "publisher": "pakcoldigitech",
+    "displayName": "Pakuranga College",
+    "description": "Pakuranga College Managed Settings for VSCode",
+    "version": "0.0.1",
+    "categories": ["Education"],
+    "keywords": ["Pakuranga College"],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#77c4d6",
+        "theme": "dark"
+    },
+    "qna": false,
+    "repository": "github:pakcoldigitech/pcmsvsc",
+    "license": "CC-BY-4.0",
+    "engines": { "vscode": "^1.65.0" }
+}
