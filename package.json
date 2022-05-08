@@ -3,7 +3,7 @@
     "publisher": "pakcoldigitech",
     "displayName": "Pakuranga College",
     "description": "Pakuranga College Managed Settings for VSCode",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "categories": ["Education"],
     "keywords": ["Pakuranga College"],
     "icon": "icon.png",
@@ -14,5 +14,17 @@
     "qna": false,
     "repository": "github:pakcoldigitech/pcmsvsc",
     "license": "CC-BY-4.0",
-    "engines": { "vscode": "^1.65.0" }
+    "engines": { "vscode": "^1.65.0" },
+    "extensionDependencies": [
+        "CelianRiboulet.webvalidator",
+        "mhutchie.git-graph",
+        "ms-python.python"
+    ],
+    "contributes": {
+        "configurationDefaults": {
+            "editor.bracketPairColorization.enabled": false,
+            "explorer.confirmDragAndDrop": false,
+            "html.autoClosingTags": false
+        }
+    }
 }
