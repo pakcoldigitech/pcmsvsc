@@ -3,7 +3,7 @@
     "publisher": "pakcoldigitech",
     "displayName": "Pakuranga College",
     "description": "Pakuranga College Managed Settings for VSCode",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "categories": ["Education"],
     "keywords": ["Pakuranga College"],
     "icon": "icon.png",
@@ -18,7 +18,9 @@
     "extensionDependencies": [
         "CelianRiboulet.webvalidator",
         "mhutchie.git-graph",
-        "ms-python.python"
+        "ms-python.python",
+        "ritwickdey.LiveServer",
+        "lucasnorgaard.live-server-qr"
     ],
     "contributes": {
         "configurationDefaults": {
