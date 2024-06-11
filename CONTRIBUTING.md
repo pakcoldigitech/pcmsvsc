@@ -31,6 +31,8 @@ ___Requires local admin access___.
 - It is also useful to copy the following settings to `C:\Users\Default\AppData\Roaming\Code\User\settings.json`, because they can't be changed by an extension:
 ```json
 {
-  "security.workspace.trust.enabled": false
+  "security.allowedUNCHosts": ["internal.pakuranga.school.nz"],
+  "security.workspace.trust.enabled": false,
+  "workbench.welcomePage.walkthroughs.openOnInstall": false
 }
 ```
