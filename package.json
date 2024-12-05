@@ -3,7 +3,7 @@
     "publisher": "pakcoldigitech",
     "displayName": "Pakuranga College",
     "description": "Pakuranga College Managed Settings for VSCode",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "categories": ["Education"],
     "keywords": ["Pakuranga College"],
     "icon": "icon.png",
@@ -17,6 +17,7 @@
     "engines": { "vscode": "^1.65.0" },
     "extensionDependencies": [
         "CelianRiboulet.webvalidator",
+        "jacobcassidy.css-nesting-syntax-highlighting",
         "mhutchie.git-graph",
         "ms-python.python",
         "ms-vscode.hexeditor",
