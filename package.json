@@ -3,7 +3,7 @@
     "publisher": "pakcoldigitech",
     "displayName": "Pakuranga College",
     "description": "Pakuranga College Managed Settings for VSCode",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "categories": ["Education"],
     "keywords": ["Pakuranga College"],
     "icon": "icon.png",
@@ -36,6 +36,12 @@
                 "**/templates/*.html": "jinja-html"
             },
             "html.autoClosingTags": false
-        }
+        },
+        "keybindings": [
+            {
+                "key": "insert",
+                "command": "-editor.action.toggleOvertypeInsertMode"
+            }
+        ]
     }
 }
