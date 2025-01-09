@@ -21,7 +21,7 @@ These instructions mostly repeat what can be found on the [VSCode website](https
 - Alternatively, update the version number in `package.json` manually, run `git tag v0.0.X` to add the tag to git (or `git tag -a v0.0.X -m "Message"` to include a message with the tag), and run `vsce publish` without the word `patch` to publish the new version.
 - This extension attempts to follow [Semantic Versioning](https://semver.org/), i.e the minor version number should only be incremented if we make the extension do something new, and the major version number should only change if we intend to release the extension to the general public and functionality has changed incompatibly.
 - Run `git push origin --tags` to push the changes and the new tags to GitHub.
-- _Optional_: If you want the latest release to show up under [GitHub Releases](https://github.com/pakcoldigitech/pcmsvsc/releases), sign in to the releases page with a GitHub account that has been added as a collaborator to this project (again ask Mr McLeod to do this), click the button to add a new release, and upload the VSIX file that you can create with `vsce package`.
+- _Optional_: If you want the latest release to show up under [GitHub Releases](https://github.com/pakcoldigitech/pcmsvsc/releases), sign in to the releases page with a GitHub account that has been added as a collaborator to this project (again ask Mr McLeod to do this), click the button to add a new release, and upload the VSIX file that you can create with `vsce package`. ___Warning: Once you've published a release on GitHub, they enforce mandatory 2FA on your account. If there were any warning of this, Mr McLeod certainly wouldn't have done it, because he hates 2FA.___
 
 ## Installation
 
