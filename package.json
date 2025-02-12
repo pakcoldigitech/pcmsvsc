@@ -3,7 +3,7 @@
     "publisher": "pakcoldigitech",
     "displayName": "Pakuranga College",
     "description": "Pakuranga College Managed Settings for VSCode",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "categories": ["Education"],
     "keywords": ["Pakuranga College"],
     "icon": "icon.png",
@@ -27,6 +27,7 @@
     ],
     "contributes": {
         "configurationDefaults": {
+            "chat.commandCenter.enabled": false,
             "editor.bracketPairColorization.enabled": false,
             "emmet.includeLanguages": {
                 "jinja-html": "html"
