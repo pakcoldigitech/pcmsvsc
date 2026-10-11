@@ -3,7 +3,7 @@
     "publisher": "pakcoldigitech",
     "displayName": "Pakuranga College",
     "description": "Pakuranga College Managed Settings for VSCode",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "categories": ["Education"],
     "keywords": ["Pakuranga College"],
     "icon": "icon.png",
@@ -27,8 +27,9 @@
     ],
     "contributes": {
         "configurationDefaults": {
-            "chat.commandCenter.enabled": false,
+            "chat.agent.enabled": false,
             "editor.bracketPairColorization.enabled": false,
+            "editor.stickyScroll.enabled": false,
             "emmet.includeLanguages": {
                 "jinja-html": "html"
             },
@@ -36,7 +37,12 @@
             "files.associations": {
                 "**/templates/*.html": "jinja-html"
             },
-            "html.autoClosingTags": false
+            "html.autoClosingTags": false,
+            "terminal.integrated.initialHint": false,
+            "terminal.integrated.stickyScroll.enabled": false,
+            "workbench.colorTheme": "Dark+",
+            "workbench.editor.empty.hint": "hidden",
+            "workbench.experimental.modernUI": false
         },
         "keybindings": [
             {
