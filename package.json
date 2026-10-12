@@ -3,7 +3,7 @@
     "publisher": "pakcoldigitech",
     "displayName": "Pakuranga College",
     "description": "Pakuranga College Managed Settings for VSCode",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "categories": ["Education"],
     "keywords": ["Pakuranga College"],
     "icon": "icon.png",
@@ -40,6 +40,7 @@
             "html.autoClosingTags": false,
             "terminal.integrated.initialHint": false,
             "terminal.integrated.stickyScroll.enabled": false,
+            "workbench.browser.openLocalhostLinks": false,
             "workbench.colorTheme": "Dark+",
             "workbench.editor.empty.hint": "hidden",
             "workbench.experimental.modernUI": false
